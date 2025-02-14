@@ -19,15 +19,18 @@ class DeveloperProfile {
 
         $this->education = "I have an advanced degree in Web Development, and I'm currently\n
 	pursuing a master's specialization in AI and Big Data.";
+
         $this->stack = [
             "Backend"  => ["Laravel", "Node.js", "MySQL", "SQLite"],
             "Frontend" => ["React", "TailwindCSS"]
         ];
+
         $this->currentProject = ["Queater" => "https://queater.com/"];
         $this->socialLinks = [
             "LinkedIn" => "https://www.linkedin.com/in/miguel-alejandro-santiesteban-aguiar/",
             "X"        => "https://x.com/MiguelAguiarDev"
         ];
+
         $this->learning = []; // Initialize as empty array
     }
 
