@@ -9,7 +9,9 @@ class DeveloperProfile {
     public $stack;
     public $currentProject;
     public $socialLinks;
-    public $learning; // New property for topics you're currently learning
+    public $learning; // New property for topics i'm currently learning
+    #TODO: Create work
+    #TODO: Get a job
 
     public function __construct() {
         $this->name = "Miguel Alejandro";
