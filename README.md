@@ -10,7 +10,6 @@ class DeveloperProfile {
     public $currentProject;
     public $socialLinks;
     public $learning; // New property for topics i'm currently learning
-    #TODO: Create work
     #TODO: Get a job
 
     public function __construct() {
